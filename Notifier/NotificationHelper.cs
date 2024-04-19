@@ -1,6 +1,6 @@
 ﻿using Microsoft.Toolkit.Uwp.Notifications;
 
-namespace Notifier
+namespace Notifier.Notifier
 {
     internal static class NotificationHelper
     {

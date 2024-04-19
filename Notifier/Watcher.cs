@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Notifier
+namespace Notifier.Notifier
 {
     internal class Watcher(InFire inFire)
     {
@@ -23,7 +23,7 @@ namespace Notifier
         {
             var availableTorrents = mInFire.GetTorrents().Result;
             var newTorrents = ParseNewTorrents(availableTorrents);
-            if(newTorrents.Count == 0)
+            if (newTorrents.Count == 0)
             {
                 //NotificationHelper.ShowToastNotification("New", "nothing");
                 return;

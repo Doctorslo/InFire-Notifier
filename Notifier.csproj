@@ -5,11 +5,11 @@
     <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <ApplicationIcon>InFireLogo.ico</ApplicationIcon>
+    <ApplicationIcon>Notifier\InFireLogo.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="InFireLogo.ico" />
+    <Content Include="Notifier\InFireLogo.ico" />
   </ItemGroup>
 
   <ItemGroup>

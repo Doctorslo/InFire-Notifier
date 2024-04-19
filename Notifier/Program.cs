@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Text.Json;
 
-namespace Notifier
+namespace Notifier.Notifier
 {
     internal class Program
     {
@@ -34,9 +34,9 @@ namespace Notifier
                 return;
             }
             if (userData == null ||
-                string.IsNullOrWhiteSpace(userData.Uid) || 
-                string.IsNullOrWhiteSpace(userData.Pass) || 
-                string.IsNullOrWhiteSpace(userData.UserAgent) || 
+                string.IsNullOrWhiteSpace(userData.Uid) ||
+                string.IsNullOrWhiteSpace(userData.Pass) ||
+                string.IsNullOrWhiteSpace(userData.UserAgent) ||
                 userData.PeriodInSeconds <= 0)
             {
                 NotificationHelper.ShowToastNotification("Missing config", "UserData.json is missing some required data.");

@@ -1,4 +1,4 @@
-﻿namespace Notifier
+﻿namespace Notifier.Notifier
 {
     public class UserData
     {

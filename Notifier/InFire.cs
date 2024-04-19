@@ -1,7 +1,7 @@
 ﻿using HtmlAgilityPack;
 using System.Net;
 
-namespace Notifier
+namespace Notifier.Notifier
 {
     internal class InFire
     {
