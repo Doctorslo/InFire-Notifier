@@ -1,10 +1,14 @@
 # Notifier
 A windows app which will display a notification when new torrents are available on https://infire.si.
 
+![Notifier screenshot](https://github.com/Doctorslo/InFire-Notifier/blob/master/Images/NotifierExample.png?raw=true)
+
 ## Configuration
 You need to change values in **UserData.json**.
 
 - **Uid**: get it from cookies
 - **Pass**: get it from cookies
-- **UserAgent**: preffered user agent
+- **UserAgent**: preferred user agent
 - **PeriodInSeconds**: a delay between requests in seconds. Don't set this too low. Recommended is 300 seconds (5 minutes).
+
+![Notifier screenshot](https://github.com/Doctorslo/InFire-Notifier/blob/master/Images/DevToolsInfo.png?raw=true)
