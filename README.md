@@ -12,3 +12,9 @@ You need to change values in **UserData.json**.
 - **PeriodInSeconds**: a delay between requests in seconds. Don't set this too low. Recommended is 300 seconds (5 minutes).
 
 ![Notifier screenshot](https://github.com/Doctorslo/InFire-Notifier/blob/master/Images/DevToolsInfo.png?raw=true)
+
+## Start With Windows
+Run "shell:startup" and place a shortcut to that folder.
+
+## Exiting The App
+Currently there is no appropriate way to stop the app. Open Task Manager and end the task.
