@@ -20,5 +20,4 @@ Run "shell:startup" and place a shortcut to that folder.
 Currently there is no appropriate way to stop the app. Open Task Manager and end the task.
 
 ## Plan For The Future
-- Add xxx torrents
 - Add minimum size option
